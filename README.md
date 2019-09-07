@@ -37,4 +37,3 @@
         - An enviorment where we can try things out
         - Branch will not be mergered into master until it is reviewed (CODE REVIEWS)
 
-# Basic Git Commands:
