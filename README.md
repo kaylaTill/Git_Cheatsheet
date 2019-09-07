@@ -37,4 +37,4 @@
 # Git Pull Request and Merging:
     - Upon creation of a new branch
         - Initial commit: git push --set-upstream origin <demo-branch-name> (ADD A NEW BRANCH TO GIT REPO)
-        - Follow git workflow above for alll other changes 
+        - Follow git workflow above for alll other changes  
