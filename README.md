@@ -1,7 +1,5 @@
 # Git-Hub Cheatsheet
 
-
-
 # Github Workflow:
     Creating a new Repository: 
         - git init 
@@ -30,10 +28,13 @@
         - Main production branch
         - Anything in the master branch is always deployable!!
 
-
     - What happens when we create a new branch? 
         - Creates a snapshot of the current master branch
     - New branch => New feature/Contribution
         - An enviorment where we can try things out
         - Branch will not be mergered into master until it is reviewed (CODE REVIEWS)
 
+# Git Pull Request and Merging:
+    - Upon creation of a new branch
+        - Initial commit: git push --set-upstream origin <demo-branch-name> (ADD A NEW BRANCH TO GIT REPO)
+        - Follow git workflow above for alll other changes 
