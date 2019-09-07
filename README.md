@@ -20,7 +20,6 @@
     Deployment: 
         - Final Test: Test Deployment of feature before merging to master Branch
 
-    Merging 
 
 
 # Git Branching:
