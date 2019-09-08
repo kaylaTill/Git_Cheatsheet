@@ -37,9 +37,14 @@
     Upon creation of a new branch
         - Initial commit: git push <--set-upstream OR -u> origin <demo-branch-name> (ADD A NEW BRANCH TO GIT REPO)
         - Follow git workflow above for alll other changes 
+    Merge Strategies:
+        Fast Forward option
+        Rebase option
 
     Pull Request options:
-        
+        Default Github Merge pull request: Under the hood with --no-ff option. 
+
+
     
 # Editing Commit History:
     Git reset: 
