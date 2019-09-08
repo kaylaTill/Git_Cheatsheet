@@ -37,9 +37,7 @@
     Upon creation of a new branch
         - Initial commit: git push <--set-upstream OR -u> origin <demo-branch-name> (ADD A NEW BRANCH TO GIT REPO)
         - Follow git workflow above for alll other changes 
-
-
-
+    
 # Editing Commit History:
     Git reset: 
         git reset HEAD ~<number of commits to undo>
@@ -61,3 +59,13 @@
     origin => refers to the repo
     origin master => refers to the main branch on origin
     origin/master => a remote branch ( A representation or a pointer to the remote branch -> "master" on the remote named "origin")
+
+
+# Best Practices:
+    Squash and Merge:  
+            Goal: combine all commits into one commit and merge into the default branch. 
+            Default Github Merge pull request: Under the hood with --no-ff option. 
+            Github Merge pull request (squash and merge): Pull requests with squashed commits are merged using the fast-forward option.
+
+    Multilined commit messages:
+    
