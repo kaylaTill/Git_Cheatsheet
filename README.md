@@ -37,6 +37,14 @@
     Upon creation of a new branch
         - Initial commit: git push <--set-upstream OR -u> origin <demo-branch-name> (ADD A NEW BRANCH TO GIT REPO)
         - Follow git workflow above for alll other changes 
+    Merge Strategies:
+        Fast Forward option
+        Rebase option
+
+    Pull Request options:
+        Default Github Merge pull request: Under the hood with --no-ff option. 
+
+
     
 # Editing Commit History:
     Git reset: 
@@ -64,13 +72,12 @@
 # Best Practices:
     Squash and Merge:  
         Goal: combine all commits into one commit and merge into the default branch. 
+        Github Merge pull request with Squash and Merge option: Pull requests with squashed commits are merged using the fast-forward option (Squashes the pull request's commits into a single commit)
         Default Github Merge pull request: Under the hood with --no-ff option. 
-        Github Merge pull request (squash and merge): Pull requests with squashed commits are merged using the fast-forward option.
 
     Multilined commit messages:
         Terminal code editor set to nano:
             ctrl + o => saves current changes
-            ctrl + x => saves commit changes and props submission screen 
-
+            ctrl + x => saves commit changes and props submission screen
 
     
