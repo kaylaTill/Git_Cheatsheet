@@ -63,9 +63,14 @@
 
 # Best Practices:
     Squash and Merge:  
-            Goal: combine all commits into one commit and merge into the default branch. 
-            Default Github Merge pull request: Under the hood with --no-ff option. 
-            Github Merge pull request (squash and merge): Pull requests with squashed commits are merged using the fast-forward option.
+        Goal: combine all commits into one commit and merge into the default branch. 
+        Default Github Merge pull request: Under the hood with --no-ff option. 
+        Github Merge pull request (squash and merge): Pull requests with squashed commits are merged using the fast-forward option.
 
     Multilined commit messages:
+        Terminal code editor set to nano:
+            ctrl + o => saves current changes
+            ctrl + x => saves commit changes and props submission screen 
+
+
     
