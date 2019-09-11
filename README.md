@@ -40,7 +40,11 @@
     Merge Strategies:
         Fast Forward option
         Rebase option
-
+    Fixing Merge Conflicts: git merge origin/master
+        - Accept changes in code editor!
+        - Commit and push changes
+        - New pull request
+    
     Pull Request options:
         Default Github Merge pull request: Under the hood with --no-ff option. 
 
@@ -80,4 +84,4 @@
             ctrl + o => saves current changes
             ctrl + x => saves commit changes and props submission screen
 
-    
+
